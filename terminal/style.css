@@ -1,0 +1,38 @@
+@font-face {
+    font-family: terminess; src: url("fonts/terminess.ttf");
+    font-family: tamzen; src:url("fonts/tamzen.ttf");
+}
+
+#main {
+	position: relative;
+	width: 33%;
+	text-align:center;
+}
+
+#list {
+	margin:left;
+	text-align:left;
+	width: 50%;
+}
+
+.neon {
+  color: #51dd8e;
+  text-shadow:
+    0 0 4px #51dd8e,
+    0 0 10px #51dd8e,
+    0 0 21px #51dd8e,
+    0 0 42px #51dd8e,
+    0 0 82px #000,
+    0 0 92px #000,
+    0 0 102px #000,
+    0 0 151px #000;
+}
+
+div {
+	margin: auto;
+}
+
+* {
+	text-align:center;
+	font-family: "tamzen";
+}
