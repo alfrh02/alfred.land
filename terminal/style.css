@@ -1,12 +1,17 @@
 @font-face {
-    font-family: terminess; src: url("fonts/terminess.ttf");
-    font-family: tamzen; src:url("fonts/tamzen.ttf");
+    font-family: terminess; src: url("assets/fonts/terminess.ttf");
+    font-family: tamzen; src:url("assets/fonts/tamzen.ttf");
 }
 
 #main {
 	position: relative;
 	width: 33%;
 	text-align:center;
+}
+
+#canvasDiv {
+	position: absolute;
+	
 }
 
 #list {
